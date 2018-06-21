@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Valid" max_length="40" name="x_58872_needit_valid" type="collection">
+        <element label="Description" max_length="255" name="description" type="string_full_utf8"/>
+        <element choice="3" default="RHO Delegate" label="Level of Approval" max_length="40" name="level_of_approval" type="choice">
+            <choice>
+                <element label="RHO CE" value="RHO CE"/>
+                <element label="RHO COO" value="RHO COO"/>
+                <element label="RHO Delegate" value="RHO Delegate"/>
+            </choice>
+        </element>
+        <element choice="3" default="Submitted" display="true" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Approved" value="Approved"/>
+                <element label="Cancelled" value="Cancelled"/>
+                <element label="COO Approved" value="COO Approved"/>
+                <element label="Delegate Approved" value="Delegate Approved"/>
+                <element label="Drafl" value="Drafl"/>
+                <element label="New" value="New"/>
+                <element label="Rejected" value="Rejected"/>
+                <element label="Returned" value="Returned"/>
+                <element label="Submitted" value="Submitted"/>
+            </choice>
+        </element>
+    </element>
+</database>
